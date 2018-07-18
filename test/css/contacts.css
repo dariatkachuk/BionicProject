@@ -1,0 +1,161 @@
+
+.container_1{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+.top_info{
+    border-bottom: 2px solid #eaeaea;
+    border-top:2px solid #eaeaea; 
+    padding: 50px;
+    padding-top: 20px;
+}
+.bottom_info{
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.bottom_info p{
+    margin-bottom: 8px;
+}
+
+.map{
+    border: 4px solid #eaeaea;
+    width:458px;
+    height:458px;
+}    
+.iframe{
+    width:450px;
+    height:450px;
+    display: block;
+}
+
+.contacts_information{
+    padding-right: 50px;
+    font-family: 'roboto';
+    text-align: center;
+}
+.contacts_information h4{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main_menu ul li.active{
+    background-color: #f3f3f3;
+}
+.telephone{
+    font-style: italic;
+}
+
+.telephone:hover{
+    color: grey;
+}
+
+
+
+@media only screen and (max-width: 1024px), only screen and (max-device-width: 1024px) {
+body{
+    margin: 0;
+    padding: 0;
+	}
+.container_1{
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contacts_information{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.top_info{
+   border: none;
+}
+.bottom_info{
+    border: none;
+}
+.map{
+    border: 4px solid #eaeaea;
+    width: 97%;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 940px;
+    
+}    
+.iframe{
+    width: 100%;
+    height: 400px;
+    display: block;
+    max-width: 940px;
+}
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+body{
+    margin: 0;
+    padding: 0;
+	}
+.container_1{
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contacts_information{
+    padding: 0;
+    display: block;
+}
+.top_info{
+    border-left:none;
+    padding-bottom: 0px;
+}
+.bottom_info{
+     border:none;
+     
+}
+.map{
+    border: 4px solid #eaeaea;
+    width: 97%;
+    height:400px;
+    margin: 0 auto;
+    
+}    
+.iframe{
+    width: 100%;
+    height:400px;
+    display: block;
+}
+
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+body{
+    margin: 0;
+    padding: 0;
+	}
+.container_1{
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contacts_information{
+    padding: 0;
+    display: block;
+}
+.map{
+    border: 4px solid #eaeaea;
+    width: 97%;
+    height:310px;
+    margin: 0 auto;
+}    
+.iframe{
+    width: 100%;
+    height:310px;
+    display: block;
+}
+
+}
+
+
+
+
